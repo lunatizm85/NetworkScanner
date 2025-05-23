@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.NetworkScanner" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/orange_primary</item>
+        <item name="colorPrimaryVariant">@color/orange_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorAccent">@color/orange_primary</item>
+        <item name="android:statusBarColor">@color/orange_dark</item>
+        <item name="android:navigationBarColor">@color/orange_primary</item>
+        <!-- You can add more styling here later if needed -->
+    </style>
+</resources> 

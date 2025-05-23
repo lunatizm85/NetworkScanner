@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter MAC Address (e.g., 00:11:22:33:44:55)"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/macEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="MAC Address"
+        android:inputType="text"
+        android:maxLines="1"/>
+
+</LinearLayout> 
